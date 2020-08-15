@@ -1,0 +1,340 @@
+body {
+	font-family: "Segoe UI Light"
+	padding: 0;
+	margin: 0;
+	min-width:900px;
+}
+
+.clearfix after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div	{
+	box-sizing: border-box;
+}
+header {
+	 background: #2d2e2e;
+	 height: 650px;
+	 width: 100%;
+	 overflow: hidden;
+}
+#skills{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#edu{
+    background: #f7f7f7;
+	height: 850px;
+}
+footer {
+	 background: #2d2e2e;
+	 height: 600px;
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+.block{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    height: 500px;
+}
+.photo{
+    text-align: left;
+}
+.header-name{
+    width: 100%;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 3.4em;
+}
+
+h1{
+	text-align: left;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #A4A5A6;
+    font-family: "Segoe UI";
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2{
+	font-size: 63px;
+	color: #E0A80D;
+    font-family: "Segoe UI";
+    font-weight: normal; 
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+h3{
+	font-size: 17px;
+	color: #8D8E8F;
+    font-family: "Segoe UI";
+    font-weight:lighter; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h4{
+	color: #A4A5A6;
+	font-family: "Segoe UI";
+    font-weight: normal; 
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 10px;
+}
+h5{
+	font-size: 17px;
+	color: #2B2C2C;
+    font-family: "Segoe UI";
+    font-weight:lighter; 
+	display: block;
+}
+h6{
+	color: #E0A80D;
+	font-family: "Segoe UI";
+    font-weight: normal; 
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 2em;
+}
+h7{
+	font-size: 35px;
+	color: #E0A80D;
+	text-align: center;
+    font-family: "Segoe UI";
+	text-transform: uppercase;
+    font-weight:lighter; 
+	display: block;
+	line-height: 1.1em;
+	margin:5px;
+	padding-top: 20px;
+}
+h8{
+	font-size: 15px;
+	color: #E0A80D;
+	text-align: left;
+    font-family: "Segoe UI";
+	text-transform: uppercase;
+    font-weight:lighter; 
+	display: block;
+}
+h9{
+	font-size: 15px;
+	color: #8D8E8F;
+    font-family: "Segoe UI";
+	display: block;
+	margin-right: 50px;
+	text-decoration: none;
+	line-height: 3em;
+}
+h10{
+	font-size: 35px;
+	color: #E0A80D;
+	text-align: center;
+    font-family: "Segoe UI";
+	text-transform: uppercase;
+    font-weight:lighter; 
+	display: block;
+	line-height: 1.5em;
+	padding-top: 30px;
+}
+
+p{
+	font-size: 17px;
+	color: #8D8E8F;
+    font-family: "Arial";
+    font-weight:normal; 
+	display: block;
+	font-weight:lighter;
+}
+hr {
+	border:1px solid #404242;
+}
+nav {
+	display: flex;
+    justify-content: space-between;
+    margin: 0 550px ;
+}
+.info {
+	display: flex;
+    justify-content: space-between;
+    padding-left:550px;
+}
+.Contact{
+	display: flex;
+	width: 300px;
+}
+.Contact li {
+	font-size: 17px;
+	color: #8D8E8F;
+    font-family: "Segoe UI";
+    font-weight:lighter; 
+	float: left;
+	display: block;
+	margin-right: 15px;
+	text-decoration: none;
+}
+.info a {
+    color: #8D8E8F; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+	text-decoration: none;
+      }
+   a:hover {
+    color: #E08B28; /* Цвет текста */
+}
+.education_name a{
+	font-size: 15px;
+	color: #8D8E8F;
+    font-family: "Segoe UI";
+	display: block;
+	margin-right: 50px;
+	text-decoration: none;
+}
+.skills{
+	float: left;
+	text-align: center;
+	width: 300px;
+}
+.znanie {
+	display: flex;
+	margin-top: 50px;
+}
+.znanie:last-child{
+	float: right;
+}
+.skills2{
+	float: left;
+	text-align: center;
+	width: 300px;
+}
+.znanie2 {
+	display: flex;
+	margin: 20px 0px;
+}
+.znanie2:last-child{
+	float: right;
+}
+.znanie2:nth-child(2) {
+	margin-left: 60px;
+}
+
+.navyki li {
+	font-size: 13px;
+	color: #8D8E8F;
+    font-family: "Segoe UI";
+    font-weight:lighter; 
+	float: left;
+	display: block;
+}
+
+figure::before {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	border-radius: 100%;
+	transform: translate(-10%, -10%);
+	opacity: 0;
+}
+figure:hover{
+  animation: bloom ease-in-out .75s forwards;
+}
+figure:hover::before {
+	animation: circle .300s;
+}
+@keyframes bloom {
+	0% {
+		filter: grayscale(.8);
+	}
+	40% {
+		filter: invert (.10);
+	}
+	100% {
+		filter: invert (.100);
+	}
+}
+
+
+aboutme{
+	padding-top: 100px;
+	display: inline;
+}
+.title{
+	padding-top: 30px;
+	padding-left: 35px;
+}
+
+
+
+
+.button{
+	background: #fed136;
+	color: #2D2E2E;
+	border-radius:3px;
+	display: block;
+	width: 170px;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	font-family: "Segoe UI";
+	text-align: center;
+	font-weight:bold; 
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top:150px;
+}
+.button a{
+	color: #8D8E8F; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+      }
+   a:hover {
+    color: #FFF; /* Цвет текста */
+}
+}
+
+.cahestvo:last-child{
+	float: right;
+}
+.cahestvo {
+	display: flex;
+	padding-top:45px;
+}
+.item{
+	margin-left: 120px;
+	float: left;
+	text-align: left;
+	
+}
+.list li {
+	font-size: 17px;
+	color: #8D8E8F;
+    font-family: "Segoe UI";
+    font-weight:lighter; 
+	float: left;
+	display: block;
+	margin-right: 5px;
+	text-decoration: none;
+	padding-right:100px;
+}
+
+@education_name a{
+	 color: #8D8E8F; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+	text-decoration: none;
+      }
+   a:hover {
+    color: #E08B28;
+}
